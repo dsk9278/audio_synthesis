@@ -1,7 +1,6 @@
 from google.cloud import texttospeech
 
 import streamlit as st
-import io
 
 
 def synthesize_speach(text, lang='日本語', gender='default'):
